@@ -12,7 +12,7 @@
 - 写出插入数据的语句和查询数据的语句，并分析语句的执行计划。
 - 进行分区与不分区的对比实验。
 
-##实验步骤
+## 实验步骤
 在主表orders和从表order_details之间建立引用分区
 在study用户中创建两个表：orders（订单表）和order_details（订单详表），两个表通过列order_id建立主外键关联。orders表按范围分区进行存储，order_details使用引用分区进行存储。
 创建orders表的部分语句是：
