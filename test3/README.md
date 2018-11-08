@@ -16,12 +16,12 @@
 在主表orders和从表order_details之间建立引用分区
 在study用户中创建两个表：orders（订单表）和order_details（订单详表），两个表通过列order_id建立主外键关联。orders表按范围分区进行存储，order_details使用引用分区进行存储。
 创建orders表的部分语句是：
-- ![](Oracle/test3/1.png)
+- ![](https://github.com/whitedeplume/Oracle/blob/master/test3/1.png)
 创建order_details表的部分语句如下：
-- ![](Oracle/test3/2.png)
+- ![](https://github.com/whitedeplume/Oracle/blob/master/test3/2.png)
 插入数据
-- ![](Oracle/test3/3.png)
+- ![](https://github.com/whitedeplume/Oracle/blob/master/test3/3.png)
 ## 查看数据库的使用情况
 查看表空间的数据库文件，以及每个文件的磁盘占用情况。
-- ![](Oracle/test3/4.png)
-- ![](Oracle/test3/5.png)
+- ![](https://github.com/whitedeplume/Oracle/blob/master/test3/4.png)
+- ![](https://github.com/whitedeplume/Oracle/blob/master/test3/5.png)
