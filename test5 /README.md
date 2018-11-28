@@ -23,6 +23,7 @@
 - ![](https://github.com/whitedeplume/Oracle/blob/master/test5/employess.png)
 - ![](https://github.com/whitedeplume/Oracle/blob/master/test5/ep%E6%B5%8B%E8%AF%95.png)
 4. 由于订单只是按日期分区的，上述统计是全表搜索，因此统计速度会比较慢，如何提高统计的速度呢？
+- 使用索引，使用精确定位条件筛选，使用子查询将数据量大的表筛选再进行多表连接查询，少使用模糊查询，注意条件的顺序等 .
 ```
 2  张三  5000元
    3 李四   6000元
